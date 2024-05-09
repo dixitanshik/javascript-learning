@@ -1,0 +1,13 @@
+ var names=["aman","ansh","anshi"];
+   var countries=new Array("india","japan","china");
+   console.log(names);
+   console.log(countries);
+   console.log(names[1]);
+   names.pop();//will pop from end 
+   console.log(names);
+   names.unshift("new value");
+   console.log(names);
+   names.shift();
+   console.log(names);
+   console.log(names.indexOf("aman")); 
+   console.log(Array.from("aman"));
