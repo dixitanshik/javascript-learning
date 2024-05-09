@@ -1,0 +1,11 @@
+var fullname="anshika dixit";//variable for js
+console.log(fullname);
+const id="123";//const data type
+console.log(id);
+console.log("fulname is "+fullname);
+//multiple line
+console.log(`
+unique id is:${id}
+fullname is:${fullname}
+id is:${id}
+`);
