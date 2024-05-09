@@ -1,0 +1,27 @@
+for(let i=0;i<=states.length;i++)
+    {
+        console.log(states[i]);
+        //typeof states[i]!="string".....if case 
+
+    }//undefined in the o/p is due to the value not found after the condition 
+
+
+//for each loop 
+//for of loop-majorly for array
+const students=["arun","amit","vihan"];
+for(const n of students)
+    {
+        console.log(n);
+    }
+//for in loop majorly used with objects 
+const symbols=
+{
+    yt:"youtube",
+    ig:"instagram",
+
+};   
+for(const n in symbols)
+    {
+        console.log(n);
+    } 
+    
